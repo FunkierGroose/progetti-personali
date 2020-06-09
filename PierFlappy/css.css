@@ -1,0 +1,20 @@
+*{
+    background: url(thumb-1920-966314.jpg);
+    background-size: cover;
+}
+canvas{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-bottom: 4%;
+    border: 10px solid #55efc4;
+    border-radius: 5px;
+}
+img{
+    position: absolute;
+    top: 30%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    background: none;
+}

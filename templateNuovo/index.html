@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Ehi Pier!">
+	<title>Piersilvio | a computer science's student</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<!--Header-->
+	<header class="header clearfix">
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="myProject.html">Projects</a></li>
+		</ul>
+	</header>
+
+	<!---->
+
+	<!--Section landing-->
+	<section class="cover">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>Hello world, i'm here!</h1>
+				<h2>Piersilvio | a computer science's student</h2>
+				<a href="utility/access.php" class="button">Visit my latest project!</a>
+			</div>
+		</div>
+	</section>
+
+	<!---->
+
+	<!--Banner 1-->
+	<section class="banner clearfix">
+		<div class="banner__image"></div>
+		<div class="banner__copy">
+			<div class="banner__copy__text">
+				<h3>I am what I choose to be!</h3>
+				<h4>"You are the product of your own choises" cit. Eraclito</h4>
+			</div>
+		</div>
+	</section>
+
+	<!---->
+
+	<!--Card about-->
+	<section class="cards clearfix">
+		<center>
+		<div class="card">
+			<img class="card__image" src="img/imgC1.jpeg" alt="myProfile">
+			<div class="card__copy">
+				<h3>Who i am</h3>
+				<p>I'm IT student who enjoys travelling... And visiting the world through the lines of code!</p>
+			</div>
+		</div>
+
+		<!--frame spotify-->
+		<br>
+		<iframe src="https://open.spotify.com/embed/playlist/5ZFVN6zeXaNo1eEHFVgCTk?si=Ib3FfCXbSTSZti2mNpUuBA" width="276" height="356" frameborder="0" allowtransparency="true" allow="encrypted-media" style="border-radius: 14px;"></iframe>
+	</center>
+	</section>
+
+	<!---->
+
+	<!--Banner 2-->
+	<section class="banner clearfix">
+		<div class="banner__copy">
+			<div class="banner__copy__text">
+				<h3>Contact me!</h3>
+				<h4>If you want to find out more about me... Just get in touch!</h4>
+				<br>
+				<a href="https://github.com/FunkierGroose/Projects-school-of-Pier" class="button">My Github</a>
+				<a href="https://www.instagram.com/instapier.jpg/" class="button">My Instagram</a>
+			</div>
+		</div>
+		<div class="banner__imageB2"></div>
+	</section>
+
+	<!---->
+
+	<!--Footer-->
+	<footer class="footer">
+		<p><a href="license.txt">Copyright</a> - 2020 www.devpier.it</p>
+	</footer>
+
+	<!---->
+
+	<!--Script page and responsive-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+				$(".header__icon-bar").click(function(e){
+
+					$(".header__menu").toggleClass('is-open');
+					e.preventDefault();
+
+				});
+		});
+	</script>
+
+	<!---->
+
+</body>
+</html>
